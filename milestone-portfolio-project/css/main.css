@@ -1,0 +1,169 @@
+body {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	min-height: 100vh;
+	margin-top: 1rem;
+	font-family: "Open Sans", Verdana, sans-serif;
+	background-color: #cdc9c1;
+	background-image: radial-gradient(circle farthest-side at center top, hsl(0, 0%, 100%) 0%, #cdc9c1 100%);
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 60rem;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: .5rem 0;
+	width: 100%
+}
+
+.header-left {
+	flex: 1 0 33%;
+	text-align: left;
+}
+
+.header-right {
+	flex: 2 0 67%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+}
+
+h1 {
+	padding-top: 1rem;
+}
+
+.btn {
+	background-color: #362507;
+	padding: .25rem .75rem;
+	border-radius: .75rem;
+	font-size: 1rem;
+	color: #cdc9c1;
+	text-transform: uppercase;
+}
+
+nav ul {
+	display: flex;
+	list-style-type: none;
+}
+
+nav li {
+	padding-left: 1rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #362507;
+	background-color: #cdc9c1;
+}
+
+h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	font-family: "Playfair Display", Georgia, serif;
+}
+
+.intro {
+	display: flex;
+	align-items: center;
+	margin: 2rem 0;
+	width: 100%;
+	border: 3px solid #77613c;
+	color: #362507;
+	font-size: 1.25rem;
+	background-color: #a99879;
+	background-image: radial-gradient(ellipse closest-corner at center, #cdc9c1 0%, #a99879 100%);
+}
+
+.intro-text {
+	flex: 2 0 67%;
+	padding: 2rem 0 2rem 2rem;
+}
+
+.intro-text p {
+	margin: 1.5rem 0;
+}
+
+.intro-image {
+	flex: 1 0 33%;
+	padding-right: 2rem;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 2rem;
+	font-style: italic;
+}
+
+h2, h3 {
+	font-family: "Playfair Display", Georgia, serif;
+}
+
+.portfolio {
+	margin-bottom: 1rem;
+}
+
+.portfolio-text p {
+	margin: .5rem 0 1.5rem;
+	font-size: 1.25rem;
+}
+
+.portfolio-images {
+	display: flex;
+	justify-content: space-between;
+}
+
+.portfolio-image {
+	position: relative;
+	cursor: pointer;
+	margin-bottom: 1rem;
+}
+
+.about {
+	margin-bottom: 1rem;
+}
+
+.about-text p {
+	margin: .5rem 0 1.5rem;
+	font-size: 1.25rem;
+}
+
+.contact {
+	margin-bottom: 1rem;
+}
+
+.contact-text p {
+	margin: .5rem 0 1.5rem;
+	font-size: 1.25rem;
+}
+
+.contact-social-links a {
+	margin-right: 1.5rem;
+}
+
+footer {
+	display: flex;
+	padding: 1em 0;
+	border-top: 1px solid #a99879;
+}
+
+.footer-copyright {
+	flex: 1 0 50%;
+	text-align: left;
+	font-style: italic;
+	font-size: 1.25em;
+}
